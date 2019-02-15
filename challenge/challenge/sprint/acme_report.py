@@ -1,3 +1,5 @@
+import random 
+
 class reports:
     """Acme Products List
     """
