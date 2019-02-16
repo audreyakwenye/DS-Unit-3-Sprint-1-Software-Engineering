@@ -15,11 +15,11 @@ class Product:
         """
         stealability = self.price / self.weight
         if stealability < 0.5:
-              print("Not so stelable")
+              print("Not so stealable...")
         elif stealability <= 1:
-              print("Kinda stelable")
+              print("Kinda stealable.")
         else:
-            print("Very Stealable")
+            print("Very Stealable!")
             
     def explode(self):
         """Is the product is flammable 
